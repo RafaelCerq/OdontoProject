@@ -2,13 +2,13 @@ program OdontoProject;
 
 uses
   Vcl.Forms,
-  main in 'main.pas' {TfrmMain};
+  main in 'main.pas' {Form1};
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TTfrmMain, TfrmMain);
+  Application.CreateForm(TForm1, Form1);
   Application.Run;
 end.
